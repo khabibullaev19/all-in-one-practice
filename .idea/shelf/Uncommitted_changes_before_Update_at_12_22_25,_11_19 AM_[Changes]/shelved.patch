@@ -1,0 +1,52 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n  xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n  <modelVersion>4.0.0</modelVersion>\n\n  <groupId>org.example</groupId>\n  <artifactId>allinonepractice</artifactId>\n  <version>1.0-SNAPSHOT</version>\n  <packaging>jar</packaging>\n\n  <name>allinonepractice</name>\n  <url>http://maven.apache.org</url>\n\n  <properties>\n    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\n  </properties>\n\n  <dependencies>\n\n    <dependency>\n      <groupId>junit</groupId>\n      <artifactId>junit</artifactId>\n      <version>3.8.1</version>\n      <scope>test</scope>\n    </dependency>\n\n      <dependency>\n          <groupId>org.testng</groupId>\n          <artifactId>testng</artifactId>\n          <version>7.11.0</version>\n      </dependency>\n\n      <!-- Rest-Assured for API testing -->\n      <dependency>\n          <groupId>io.rest-assured</groupId>\n          <artifactId>rest-assured</artifactId>\n          <version>5.5.0</version>\n      </dependency>\n\n      <dependency>\n          <groupId>org.seleniumhq.selenium</groupId>\n          <artifactId>selenium-java</artifactId>\n          <version>4.38.0</version>\n      </dependency>\n\n      <!-- JSON handling -->\n      <dependency>\n          <groupId>org.json</groupId>\n          <artifactId>json</artifactId>\n          <version>20231013</version>\n      </dependency>\n\n      <!-- Gson (optional if you use Jackson) -->\n      <dependency>\n          <groupId>com.google.code.gson</groupId>\n          <artifactId>gson</artifactId>\n          <version>2.11.0</version>\n      </dependency>\n\n      <!-- TestNG -->\n      <dependency>\n          <groupId>org.testng</groupId>\n          <artifactId>testng</artifactId>\n          <version>7.11.0</version>\n      </dependency>\n\n      <!-- Jackson JSON library -->\n      <dependency>\n          <groupId>com.fasterxml.jackson.core</groupId>\n          <artifactId>jackson-core</artifactId>\n          <version>2.17.2</version>\n      </dependency>\n      <dependency>\n          <groupId>com.fasterxml.jackson.core</groupId>\n          <artifactId>jackson-databind</artifactId>\n          <version>2.17.2</version>\n      </dependency>\n      <dependency>\n          <groupId>com.fasterxml.jackson.core</groupId>\n          <artifactId>jackson-annotations</artifactId>\n          <version>2.17.2</version>\n      </dependency>\n      <dependency>\n          <groupId>io.rest-assured</groupId>\n          <artifactId>rest-assured</artifactId>\n          <version>5.5.6</version>\n          <scope>compile</scope>\n      </dependency>\n      <dependency>\n          <groupId>junit</groupId>\n          <artifactId>junit</artifactId>\n          <version>RELEASE</version>\n          <scope>compile</scope>\n      </dependency>\n\n  </dependencies>\n</project>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision f3331417dd12c089584e967990a7e10200c24b32)
++++ b/pom.xml	(date 1766381566296)
+@@ -69,22 +69,7 @@
+           <artifactId>jackson-core</artifactId>
+           <version>2.17.2</version>
+       </dependency>
+-      <dependency>
+-          <groupId>com.fasterxml.jackson.core</groupId>
+-          <artifactId>jackson-databind</artifactId>
+-          <version>2.17.2</version>
+-      </dependency>
+-      <dependency>
+-          <groupId>com.fasterxml.jackson.core</groupId>
+-          <artifactId>jackson-annotations</artifactId>
+-          <version>2.17.2</version>
+-      </dependency>
+-      <dependency>
+-          <groupId>io.rest-assured</groupId>
+-          <artifactId>rest-assured</artifactId>
+-          <version>5.5.6</version>
+-          <scope>compile</scope>
+-      </dependency>
++
+       <dependency>
+           <groupId>junit</groupId>
+           <artifactId>junit</artifactId>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"VcsDirectoryMappings\">\n    <mapping directory=\"$PROJECT_DIR$/..\" vcs=\"Git\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision f3331417dd12c089584e967990a7e10200c24b32)
++++ b/.idea/vcs.xml	(date 1766316195634)
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
