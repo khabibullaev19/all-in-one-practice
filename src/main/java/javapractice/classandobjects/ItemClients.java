@@ -1,9 +1,11 @@
 package javapractice.classandobjects;
 
-public class TestClass02 {
+public class ItemClients {
 
     public static void main(String[] args) {
-        System.out.println("Test");
+
+        Item item1 = new Item();
+
     }
 
 }
