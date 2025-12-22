@@ -1,4 +1,4 @@
-package java.classandobjects;
+package javapractice.classandobjects;
 
 public class TestClass {
 
