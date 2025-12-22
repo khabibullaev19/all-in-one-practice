@@ -60,13 +60,6 @@
           <version>20250517</version>
       </dependency>
 
-      <!-- JSON handling -->
-      <dependency>
-          <groupId>org.json</groupId>
-          <artifactId>json</artifactId>
-          <version>20231013</version>
-      </dependency>
-
       <!-- Gson (optional if you use Jackson) -->
       <dependency>
           <groupId>com.google.code.gson</groupId>
