@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="all update 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/DogObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/ItemClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArrayLiteral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArrayObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility_equals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility_toString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/TestClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/TestClass02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/TestClass03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/ItemClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/ItemClients.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -51,23 +53,84 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayLiteral.executor": "Run",
+    "Application.ArrayObjects.executor": "Run",
+    "Application.ArraysUtility_equals.executor": "Run",
+    "Application.ArraysUtility_sort.executor": "Run",
     "Application.DogObjects.executor": "Run",
+    "Application.ItemClients.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.sync"
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="DogObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.classandobjects.DogObjects" />
+  <component name="RunManager" selected="Application.ArraysUtility_sort">
+    <configuration name="ArrayLiteral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArrayLiteral" />
+      <module name="allinonepractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArrayObjects" />
+      <module name="allinonepractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysUtility_equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArraysUtility_equals" />
+      <module name="allinonepractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysUtility_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArraysUtility_sort" />
+      <module name="allinonepractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemClients" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.classandobjects.ItemClients" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
@@ -81,9 +144,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DogObjects" />
+        <item itemvalue="Application.ArraysUtility_sort" />
+        <item itemvalue="Application.ArraysUtility_equals" />
+        <item itemvalue="Application.ArrayLiteral" />
+        <item itemvalue="Application.ArrayObjects" />
+        <item itemvalue="Application.ItemClients" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,6 +167,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1766380834520</updated>
+      <workItem from="1766638099232" duration="1924000" />
+      <workItem from="1766659384893" duration="20000" />
+      <workItem from="1766659641819" duration="5179000" />
+      <workItem from="1766835535806" duration="8650000" />
     </task>
     <task id="LOCAL-00001" summary="all update">
       <option name="closed" value="true" />
@@ -109,16 +188,11 @@
       <option name="project" value="LOCAL" />
       <updated>1766383825313</updated>
     </task>
-    <task id="LOCAL-00003" summary="all update 2">
-      <option name="closed" value="true" />
-      <created>1766384759084</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1766384759084</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all update" />
