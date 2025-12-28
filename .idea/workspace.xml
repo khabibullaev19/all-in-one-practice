@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="all update 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArrayLiteral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArrayObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility_equals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility_sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility_toString.java" afterDir="false" />
+    <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="class objects done, arrays mid">
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysTask01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysTask02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility_copyOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility_copyOfRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ForEachLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/LoopingThroughAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/LoopingThroughMultiDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/MultiDimensionalArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/ItemClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/ItemClients.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +55,18 @@
   "keyToString": {
     "Application.ArrayLiteral.executor": "Run",
     "Application.ArrayObjects.executor": "Run",
+    "Application.ArraysTask01.executor": "Run",
+    "Application.ArraysTask02.executor": "Run",
+    "Application.ArraysUtility_copyOf.executor": "Run",
+    "Application.ArraysUtility_copyOfRange.executor": "Run",
     "Application.ArraysUtility_equals.executor": "Run",
     "Application.ArraysUtility_sort.executor": "Run",
     "Application.DogObjects.executor": "Run",
+    "Application.ForEachLoop.executor": "Run",
     "Application.ItemClients.executor": "Run",
+    "Application.LoopingThroughAnArray.executor": "Run",
+    "Application.LoopingThroughMultiDArray.executor": "Run",
+    "Application.MultiDimensionalArray.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -76,9 +84,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArraysUtility_sort">
-    <configuration name="ArrayLiteral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArrayLiteral" />
+  <component name="RunManager" selected="Application.ArraysTask02">
+    <configuration name="ArraysTask01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArraysTask01" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArrayObjects" />
+    <configuration name="ArraysTask02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArraysTask02" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysUtility_equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArraysUtility_equals" />
+    <configuration name="ForEachLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ForEachLoop" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysUtility_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArraysUtility_sort" />
+    <configuration name="LoopingThroughMultiDArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.LoopingThroughMultiDArray" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
@@ -129,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemClients" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.classandobjects.ItemClients" />
+    <configuration name="MultiDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.MultiDimensionalArray" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.classandobjects.*" />
+          <option name="PATTERN" value="javapractice.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArraysUtility_sort" />
-        <item itemvalue="Application.ArraysUtility_equals" />
-        <item itemvalue="Application.ArrayLiteral" />
-        <item itemvalue="Application.ArrayObjects" />
-        <item itemvalue="Application.ItemClients" />
+        <item itemvalue="Application.ArraysTask02" />
+        <item itemvalue="Application.ArraysTask01" />
+        <item itemvalue="Application.LoopingThroughMultiDArray" />
+        <item itemvalue="Application.MultiDimensionalArray" />
+        <item itemvalue="Application.ForEachLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +178,8 @@
       <workItem from="1766638099232" duration="1924000" />
       <workItem from="1766659384893" duration="20000" />
       <workItem from="1766659641819" duration="5179000" />
-      <workItem from="1766835535806" duration="8650000" />
+      <workItem from="1766835535806" duration="9890000" />
+      <workItem from="1766893607417" duration="10583000" />
     </task>
     <task id="LOCAL-00001" summary="all update">
       <option name="closed" value="true" />
@@ -188,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766383825313</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="class objects done, arrays mid">
+      <option name="closed" value="true" />
+      <created>1766863758808</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766863758809</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +214,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all update" />
     <MESSAGE value="all update 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="all update 2" />
+    <MESSAGE value="class objects done, arrays mid" />
+    <option name="LAST_COMMIT_MESSAGE" value="class objects done, arrays mid" />
   </component>
 </project>
