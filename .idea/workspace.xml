@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="arrays done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/wrapperclasses/WrapperClassMethodsParse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/wrapperclasses/WrapperClassMethodsValueOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/wrapperclasses/WrapperClassesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/wrapperclasses/WrapperClassesIntro.java" afterDir="false" />
+    <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="wrapper done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsIndexOfAndLastIndexOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsRemoveAndClear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsSizeAndGet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListIntro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListIntro.executor": "Run",
+    "Application.ArrayListMethodsAdd.executor": "Run",
+    "Application.ArrayListMethodsRemoveAndClear.executor": "Run",
+    "Application.ArrayListMethodsSet.executor": "Run",
+    "Application.ArrayListMethodsSizeAndGet.executor": "Run",
     "Application.ArrayLiteral.executor": "Run",
     "Application.ArrayObjects.executor": "Run",
     "Application.ArraysTask01.executor": "Run",
@@ -85,13 +90,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WrapperClassMethodsValueOf">
-    <configuration name="ArraysTask01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArraysTask01" />
+  <component name="RunManager" selected="Application.ArrayListMethodsRemoveAndClear">
+    <configuration name="ArrayListIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListIntro" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.arrays.*" />
+          <option name="PATTERN" value="javapractice.arraylistprac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysTask02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArraysTask02" />
+    <configuration name="ArrayListMethodsAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListMethodsAdd" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.arrays.*" />
+          <option name="PATTERN" value="javapractice.arraylistprac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassMethodsParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.wrapperclasses.WrapperClassMethodsParse" />
+    <configuration name="ArrayListMethodsRemoveAndClear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListMethodsRemoveAndClear" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.wrapperclasses.*" />
+          <option name="PATTERN" value="javapractice.arraylistprac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassMethodsValueOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.wrapperclasses.WrapperClassMethodsValueOf" />
+    <configuration name="ArrayListMethodsSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListMethodsSet" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.wrapperclasses.*" />
+          <option name="PATTERN" value="javapractice.arraylistprac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.wrapperclasses.WrapperClassesDemo" />
+    <configuration name="ArrayListMethodsSizeAndGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListMethodsSizeAndGet" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.wrapperclasses.*" />
+          <option name="PATTERN" value="javapractice.arraylistprac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WrapperClassMethodsValueOf" />
-        <item itemvalue="Application.WrapperClassMethodsParse" />
-        <item itemvalue="Application.WrapperClassesDemo" />
-        <item itemvalue="Application.ArraysTask02" />
-        <item itemvalue="Application.ArraysTask01" />
+        <item itemvalue="Application.ArrayListMethodsRemoveAndClear" />
+        <item itemvalue="Application.ArrayListMethodsSet" />
+        <item itemvalue="Application.ArrayListMethodsSizeAndGet" />
+        <item itemvalue="Application.ArrayListMethodsAdd" />
+        <item itemvalue="Application.ArrayListIntro" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +189,7 @@
       <workItem from="1766659384893" duration="20000" />
       <workItem from="1766659641819" duration="5179000" />
       <workItem from="1766835535806" duration="9890000" />
-      <workItem from="1766893607417" duration="13821000" />
+      <workItem from="1766893607417" duration="21924000" />
     </task>
     <task id="LOCAL-00001" summary="all update">
       <option name="closed" value="true" />
@@ -218,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766918056769</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="wrapper done">
+      <option name="closed" value="true" />
+      <created>1766922587611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766922587611</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +242,7 @@
     <MESSAGE value="all update 2" />
     <MESSAGE value="class objects done, arrays mid" />
     <MESSAGE value="arrays done" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays done" />
+    <MESSAGE value="wrapper done" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrapper done" />
   </component>
 </project>
