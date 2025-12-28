@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="class objects done, arrays mid">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysTask01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysTask02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility_copyOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ArraysUtility_copyOfRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/ForEachLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/LoopingThroughAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/LoopingThroughMultiDArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arrays/MultiDimensionalArray.java" afterDir="false" />
+    <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="arrays done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/wrapperclasses/WrapperClassMethodsParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/wrapperclasses/WrapperClassMethodsValueOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/wrapperclasses/WrapperClassesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/wrapperclasses/WrapperClassesIntro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +65,9 @@
     "Application.LoopingThroughAnArray.executor": "Run",
     "Application.LoopingThroughMultiDArray.executor": "Run",
     "Application.MultiDimensionalArray.executor": "Run",
+    "Application.WrapperClassMethodsParse.executor": "Run",
+    "Application.WrapperClassMethodsValueOf.executor": "Run",
+    "Application.WrapperClassesDemo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -84,7 +85,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArraysTask02">
+  <component name="RunManager" selected="Application.WrapperClassMethodsValueOf">
     <configuration name="ArraysTask01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ArraysTask01" />
       <module name="allinonepractice" />
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEachLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.ForEachLoop" />
+    <configuration name="WrapperClassMethodsParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.wrapperclasses.WrapperClassMethodsParse" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.arrays.*" />
+          <option name="PATTERN" value="javapractice.wrapperclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopingThroughMultiDArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.LoopingThroughMultiDArray" />
+    <configuration name="WrapperClassMethodsValueOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.wrapperclasses.WrapperClassMethodsValueOf" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.arrays.*" />
+          <option name="PATTERN" value="javapractice.wrapperclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arrays.MultiDimensionalArray" />
+    <configuration name="WrapperClassesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.wrapperclasses.WrapperClassesDemo" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.arrays.*" />
+          <option name="PATTERN" value="javapractice.wrapperclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,13 +153,17 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WrapperClassMethodsValueOf" />
+        <item itemvalue="Application.WrapperClassMethodsParse" />
+        <item itemvalue="Application.WrapperClassesDemo" />
         <item itemvalue="Application.ArraysTask02" />
         <item itemvalue="Application.ArraysTask01" />
-        <item itemvalue="Application.LoopingThroughMultiDArray" />
-        <item itemvalue="Application.MultiDimensionalArray" />
-        <item itemvalue="Application.ForEachLoop" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="FluentLenium" />
+    <option name="lastLanguageId" value="JAVA" />
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -179,7 +184,7 @@
       <workItem from="1766659384893" duration="20000" />
       <workItem from="1766659641819" duration="5179000" />
       <workItem from="1766835535806" duration="9890000" />
-      <workItem from="1766893607417" duration="10583000" />
+      <workItem from="1766893607417" duration="13821000" />
     </task>
     <task id="LOCAL-00001" summary="all update">
       <option name="closed" value="true" />
@@ -205,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766863758809</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="arrays done">
+      <option name="closed" value="true" />
+      <created>1766918056768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766918056769</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +228,7 @@
     <MESSAGE value="all update" />
     <MESSAGE value="all update 2" />
     <MESSAGE value="class objects done, arrays mid" />
-    <option name="LAST_COMMIT_MESSAGE" value="class objects done, arrays mid" />
+    <MESSAGE value="arrays done" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays done" />
   </component>
 </project>
