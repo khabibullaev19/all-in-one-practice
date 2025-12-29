@@ -11,7 +11,10 @@ public class ArrayListMethodsIndexOfAndLastIndexOf {
     public static void main(String[] args) {
 
         ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.addAll(Arrays.asList("Java", "C#", "Python", "Java", "Ruby", "C++", "Java"));
+        arrayList.addAll(Arrays.asList("Java", "C#", "Python", "Java", "Ruby", "C++"));
+
+        System.out.println(arrayList.indexOf("Python"));
+        System.out.println(arrayList.lastIndexOf("Java"));
 
     }
 
