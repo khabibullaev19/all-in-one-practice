@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="array list pause (contains all)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsAddAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsRemoveAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsRetainAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/LoopingThroughArrayListInIndexOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_22_25,_9_44 PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_22_25__9_44PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="LoopingThroughArrayListInIndexOrder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsContainsAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsContainsAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/LoopingThroughArrayListInIndexOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/LoopingThroughArrayListInIndexOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +70,7 @@
     "Application.ForEachLoop.executor": "Run",
     "Application.ItemClients.executor": "Run",
     "Application.LoopingThroughAnArray.executor": "Run",
+    "Application.LoopingThroughArrayListInIndexOrder.executor": "Run",
     "Application.LoopingThroughMultiDArray.executor": "Run",
     "Application.MultiDimensionalArray.executor": "Run",
     "Application.WrapperClassMethodsParse.executor": "Run",
@@ -98,7 +93,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayListMethodsRetainAll">
+  <component name="RunManager" selected="Application.LoopingThroughArrayListInIndexOrder">
     <configuration name="ArrayListMethodsAddAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListMethodsAddAll" />
       <module name="allinonepractice" />
@@ -114,19 +109,6 @@
     </configuration>
     <configuration name="ArrayListMethodsContainsAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListMethodsContainsAll" />
-      <module name="allinonepractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javapractice.arraylistprac.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListMethodsEqualsAndIsEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListMethodsEqualsAndIsEmpty" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
@@ -164,13 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoopingThroughArrayListInIndexOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.LoopingThroughArrayListInIndexOrder" />
+      <module name="allinonepractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.arraylistprac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoopingThroughArrayListInIndexOrder" />
         <item itemvalue="Application.ArrayListMethodsRetainAll" />
         <item itemvalue="Application.ArrayListMethodsRemoveAll" />
         <item itemvalue="Application.ArrayListMethodsAddAll" />
         <item itemvalue="Application.ArrayListMethodsContainsAll" />
-        <item itemvalue="Application.ArrayListMethodsEqualsAndIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +196,8 @@
       <workItem from="1767023832959" duration="7085000" />
       <workItem from="1767250363995" duration="4121000" />
       <workItem from="1767368288486" duration="1850000" />
-      <workItem from="1767420921350" duration="14314000" />
+      <workItem from="1767420921350" duration="14398000" />
+      <workItem from="1767509915310" duration="53534000" />
     </task>
     <task id="LOCAL-00001" summary="all update">
       <option name="closed" value="true" />
@@ -259,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767031293443</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="LoopingThroughArrayListInIndexOrder">
+      <option name="closed" value="true" />
+      <created>1767466492512</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767466492512</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +277,7 @@
     <MESSAGE value="wrapper done" />
     <MESSAGE value="array list pause" />
     <MESSAGE value="array list pause (contains all)" />
-    <option name="LAST_COMMIT_MESSAGE" value="array list pause (contains all)" />
+    <MESSAGE value="LoopingThroughArrayListInIndexOrder" />
+    <option name="LAST_COMMIT_MESSAGE" value="LoopingThroughArrayListInIndexOrder" />
   </component>
 </project>
