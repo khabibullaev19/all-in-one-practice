@@ -3,7 +3,7 @@ package javapractice.arraylistprac;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class LoopingThroughArrayListInIndexOrder {
+public class LoopingThroughArrayListInReversedOrder {
 
     public static void main(String[] args) {
 
@@ -12,14 +12,8 @@ public class LoopingThroughArrayListInIndexOrder {
 
         System.out.println(arrayList);
 
-        for(int i = 0; i < arrayList.size(); i++){
+        for (int i = arrayList.size()-1; i >= 0; i--) {
             System.out.print(arrayList.get(i) + " ");
-        }
-
-        System.out.println();
-
-        for (int each : arrayList){
-            System.out.print(each + " ");
         }
 
     }
