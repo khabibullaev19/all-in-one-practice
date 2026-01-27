@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="LoopingThroughArrayListInIndexOrder2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListMethodsRemoveIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/LoopingThroughArrayListInReversedOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/LoopingThroughArrayListWithForEachLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilityFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilityMinAndMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilityReplaceAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilityReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilitySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilitySwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/wrapperclasses/WrapperClassTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/LoopingThroughArrayListInIndexOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/LoopingThroughArrayListInIndexOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +67,7 @@
     "Application.ArrayListMethodsRetainAll.executor": "Run",
     "Application.ArrayListMethodsSet.executor": "Run",
     "Application.ArrayListMethodsSizeAndGet.executor": "Run",
+    "Application.ArrayListTask.executor": "Run",
     "Application.ArrayLiteral.executor": "Run",
     "Application.ArrayObjects.executor": "Run",
     "Application.ArraysTask01.executor": "Run",
@@ -70,6 +76,12 @@
     "Application.ArraysUtility_copyOfRange.executor": "Run",
     "Application.ArraysUtility_equals.executor": "Run",
     "Application.ArraysUtility_sort.executor": "Run",
+    "Application.CollectionsUtilityFrequency.executor": "Run",
+    "Application.CollectionsUtilityMinAndMax.executor": "Run",
+    "Application.CollectionsUtilityReplaceAll.executor": "Run",
+    "Application.CollectionsUtilityReverse.executor": "Run",
+    "Application.CollectionsUtilitySort.executor": "Run",
+    "Application.CollectionsUtilitySwap.executor": "Run",
     "Application.DogObjects.executor": "Run",
     "Application.ForEachLoop.executor": "Run",
     "Application.ItemClients.executor": "Run",
@@ -81,6 +93,7 @@
     "Application.MultiDimensionalArray.executor": "Run",
     "Application.WrapperClassMethodsParse.executor": "Run",
     "Application.WrapperClassMethodsValueOf.executor": "Run",
+    "Application.WrapperClassTask.executor": "Run",
     "Application.WrapperClassesDemo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -99,9 +112,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayListMethodsRemoveIf">
-    <configuration name="ArrayListMethodsEqualsAndIsEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListMethodsEqualsAndIsEmpty" />
+  <component name="RunManager" selected="Application.ArrayListTask">
+    <configuration name="ArrayListTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListTask" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListMethodsRemoveIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListMethodsRemoveIf" />
+    <configuration name="CollectionsUtilityFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.collectionsutility.CollectionsUtilityFrequency" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.arraylistprac.*" />
+          <option name="PATTERN" value="javapractice.collectionsutility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopingThroughArrayListInIndexOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.LoopingThroughArrayListInIndexOrder" />
+    <configuration name="CollectionsUtilityReplaceAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.collectionsutility.CollectionsUtilityReplaceAll" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.arraylistprac.*" />
+          <option name="PATTERN" value="javapractice.collectionsutility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopingThroughArrayListInReversedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.LoopingThroughArrayListInReversedOrder" />
+    <configuration name="CollectionsUtilitySwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.collectionsutility.CollectionsUtilitySwap" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.arraylistprac.*" />
+          <option name="PATTERN" value="javapractice.collectionsutility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopingThroughArrayListWithForEachLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.LoopingThroughArrayListWithForEachLoop" />
+    <configuration name="WrapperClassTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.wrapperclasses.WrapperClassTask" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.arraylistprac.*" />
+          <option name="PATTERN" value="javapractice.wrapperclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayListMethodsRemoveIf" />
-        <item itemvalue="Application.LoopingThroughArrayListWithForEachLoop" />
-        <item itemvalue="Application.LoopingThroughArrayListInReversedOrder" />
-        <item itemvalue="Application.LoopingThroughArrayListInIndexOrder" />
-        <item itemvalue="Application.ArrayListMethodsEqualsAndIsEmpty" />
+        <item itemvalue="Application.ArrayListTask" />
+        <item itemvalue="Application.WrapperClassTask" />
+        <item itemvalue="Application.CollectionsUtilityFrequency" />
+        <item itemvalue="Application.CollectionsUtilityReplaceAll" />
+        <item itemvalue="Application.CollectionsUtilitySwap" />
       </list>
     </recent_temporary>
   </component>
