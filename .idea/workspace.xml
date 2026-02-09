@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="LoopingThroughArrayListInIndexOrder2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/arraylistprac/ArrayListTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilityFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilityMinAndMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilityReplaceAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilityReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilitySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtilitySwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/wrapperclasses/WrapperClassTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart2/ConstructorsIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart2/StudentObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/collectionsutility/CollectionsUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart1/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/DogObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart1/DogObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart1/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjects/ItemClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart1/ItemClients.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +89,7 @@
     "Application.LoopingThroughArrayListWithForEachLoop.executor": "Run",
     "Application.LoopingThroughMultiDArray.executor": "Run",
     "Application.MultiDimensionalArray.executor": "Run",
+    "Application.StudentObjects.executor": "Run",
     "Application.WrapperClassMethodsParse.executor": "Run",
     "Application.WrapperClassMethodsValueOf.executor": "Run",
     "Application.WrapperClassTask.executor": "Run",
@@ -112,7 +111,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayListTask">
+  <component name="RunManager" selected="Application.StudentObjects">
     <configuration name="ArrayListTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javapractice.arraylistprac.ArrayListTask" />
       <module name="allinonepractice" />
@@ -152,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsUtilitySwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.collectionsutility.CollectionsUtilitySwap" />
+    <configuration name="StudentObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.classandobjectspart2.StudentObjects" />
       <module name="allinonepractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.collectionsutility.*" />
+          <option name="PATTERN" value="javapractice.classandobjectspart2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentObjects" />
         <item itemvalue="Application.ArrayListTask" />
         <item itemvalue="Application.WrapperClassTask" />
         <item itemvalue="Application.CollectionsUtilityFrequency" />
         <item itemvalue="Application.CollectionsUtilityReplaceAll" />
-        <item itemvalue="Application.CollectionsUtilitySwap" />
       </list>
     </recent_temporary>
   </component>

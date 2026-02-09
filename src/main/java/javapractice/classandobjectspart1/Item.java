@@ -1,4 +1,4 @@
-package javapractice.classandobjects;
+package javapractice.classandobjectspart1;
 
 public class Item {
 
