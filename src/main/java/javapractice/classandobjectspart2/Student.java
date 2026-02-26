@@ -13,10 +13,13 @@ public class Student {
                 "\ngradeLevel: " + gradeLevel;
     }
 
-    public Student(String name, int age, String gradeLevel) {
+    public Student(String name){
+        this.name = name;
+    }
+
+    public Student(String name, int age){
         this.name = name;
         this.age = age;
-        this.gradeLevel = gradeLevel;
     }
 
 }
