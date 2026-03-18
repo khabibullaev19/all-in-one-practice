@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1970dc39-4b67-4571-b2ac-15ebfe8977ce" name="Changes" comment="LoopingThroughArrayListInIndexOrder2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/stringclass/IndexNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/stringclass/StringLiteralVSNewKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/stringclass/StringMethodsCharAtAndLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/stringclass/StringMethodsToLowerCaseAndToUpperCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/stringclass/StringObjectLiteral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/stringclass/StringObjectNewKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/threading/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/threading/ThreadingIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/threading/multithreading/MultithreadingIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/threading/multithreading/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/SortingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart2/StaticsIntro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart2/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart2/StudentObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javapractice/classandobjectspart2/StudentObjects.java" afterDir="false" />
@@ -112,7 +104,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ali_sdet/Downloads/claude-code-jetbrains-plugin-0.1.14-beta.zip&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ali/MyProjects/allinonepractice&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -204,7 +196,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>
@@ -227,6 +220,10 @@
       <workItem from="1767509915310" duration="53569000" />
       <workItem from="1768405905788" duration="4474000" />
       <workItem from="1769232735603" duration="10000" />
+      <workItem from="1773554421306" duration="1243000" />
+      <workItem from="1773640667969" duration="861000" />
+      <workItem from="1773798008556" duration="55000" />
+      <workItem from="1773798070704" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="all update">
       <option name="closed" value="true" />
